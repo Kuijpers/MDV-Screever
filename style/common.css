@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html, body {
+	text-align			:		center;
+	min-height				:		100%;
+	width				:		100%;
+	margin				:		0px;
+	padding				:		0px;
+	background-color	:		#ede091;
+	color				:		#004000;
+}
+
+div.container{
+	width				:		900px;
+	min-height				:		100%;
+	margin				:		0px auto;
+	border-left			:		2px solid #e1d482;
+	border-right		:		2px solid #e1d482;
+	background-image	:		url(../images/body_bg.png);
+	background-repeat	:		repeat-y;
+	float				:		none;
+}
+
+#top div.top{
+	width				:		100%;
+	height				:		300px;
+	background-image	:		url(../images/top_bg.png);
+	background-repeat	:		no-repeat;
+}
+
+#top div.logo{
+	width				:		900px;	
+	height				:		175px;
+	float				:		left;
+	background-image	:		url(../images/logo.png);
+	background-repeat	:		no-repeat;
+}
+
+#top div.certified{
+	width				:		90px;
+	height				:		90px;
+	float				:		right;
+	margin-right		:		15px;
+	margin-top			:		10px;	
+}
+
+
+
+#top div.menu{
+	width				:		850px;
+	height				:		110px;
+	float				:		left;
+	margin-top			:		12px;
+	margin-left			:		25px;
+	border-top			:		1px solid #004000;
+	border-bottom		:		1px solid #004000;
+}
+
+#top div.menusplit{
+	height				:	auto;
+	width				:	auto;
+	float				:	left;
+	margin-top			:	7px;
+}
+
+#top li{
+	list-style-type		:	none;
+	text-align			:	left;
+	float				:	left;
+	font-size			:	18px;
+	font-weight			:	bold;
+	
+}
+
+#top a{
+	diplay				:	block;	
+	color				:	#004000;
+}
+
+
+#top a:link{
+	text-decoration		:	none;
+}
+
+#top a:visited{
+	text-decoration		:	none;
+}
+
+#top a:active{
+	text-decoration		:	none;
+}
+
+#top a:hover{
+	text-decoration		:	underline;
+	diplay				:	block;	
+	color				:	#004000;
+}
+
+#body div.left{
+	width				:	530px;
+	height				:	100%;
+	float				:	left;
+	text-align			:	justify;
+	line-height			:	2.0;
+	margin-top			:	25px;
+	margin-left			:	10px;
+	margin-right		:	10px;
+	
+}
+
+#body div.right{
+	width				:	330px;
+	height				:	100%;
+	float				:	left;
+	text-align			:	justify;
+	margin-top			:	25px;
+	margin-left			:	10px;
+	margin-right		:	10px;
+}
+
+#body div.full{
+	width				:	880px;
+	height				:	100%;
+	float				:	left;
+	text-align			:	justify;
+	margin-top			:	25px;
+	margin-left			:	10px;
+	margin-right		:	10px;
+}
+
+#footer div.footer{
+	width				:	100%;
+	height				:	50px;
+	float				:	left;
+	text-align			:	center;
+	margin-top			:	10px;
+	margin-bottom			:	10px;
+	
+}
+div.clear{
+	clear:both;	
+	
+}
+
+
